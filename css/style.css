@@ -14,7 +14,8 @@
 }
 .jumbotron {
     height: 630px;
-    background-image: url(/img/landing.jpg);
+    background-image: url(/img/landing.jpg), radial-gradient(#444, rgb(100, 99, 99));
+    background-blend-mode: multiply;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
