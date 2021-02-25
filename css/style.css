@@ -1,0 +1,100 @@
+
+.navbar-nav { 
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;   
+}
+.navbar-nav .nav-item {
+    margin-left: 20px;
+}
+
+.bg-light { 
+    background-color: white !important;
+    box-shadow: 1px 1px 6px rgba(0,0,0,0.1);
+}
+.jumbotron {
+    height: 630px;
+    background-image: url(/img/landing.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    position: relative;
+}
+
+.jumbotron .content{
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    padding-top: 10px;
+    margin-top: 150px;
+}
+.jumbotron a{
+    margin-top: 20px;
+}
+
+.map {
+    height: 680px;
+    background-color: white;
+    text-align: center;
+}
+
+.map h1 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 48px;
+    font-family: 'Montserrat', sans-serif;  
+    margin-top: 100px;
+}
+.map .images {
+    margin-top: 40px;
+}
+.map a {
+ font-size: 20px;
+ width: 200px;
+margin-top: 70px;
+}
+
+.mentor {
+    height: 600px;
+    background-color: #FFE296;
+    font-family: 'Montserrat', sans-serif;  
+}
+.mentor h1 {
+    text-align: center;
+    font-size: 48px;
+    font-family: 'Montserrat', sans-serif; 
+}
+
+.mentor .card {
+    margin-top: 20px;
+    width: 10rem;
+    height: 70px;
+}
+.testimoni {
+    height: 300px;
+}
+.footer {
+    margin-top: 300px;
+    height: 500px;
+    background-color: #FFE296;
+}
+
+.footer h1 {
+    text-align: center;
+    margin-top: 100px;
+}
+.footer .copyright {
+    text-align: center;
+    font-weight: bold;
+    color: black;
+    font-family: 'Montserrat', sans-serif; 
+    font-family: 20px;
+}
+
+
+@media (min-width: 992px) {
+    .navbar-light .navbar-nav .nav-link:hover {
+        color: #E7404A;
+    }
+}
