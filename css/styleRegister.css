@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+.col-sm{
+  border: 1px red dashed;
+  width: 1000px;
+  margin: auto;
+}
+
+.marginBottom{ /* Margin nama depan, email, dan password*/
+  margin-bottom: 37px;
+}
+
+.title{
+  font-family: Montserrat;
+  font-size: 36px;
+  font-weight: bold;
+  text-align: left;
+  margin-bottom: 24px;
+}
+
+/* height form */
+.form-control {
+  height: 70px;
+}
+
+/* Font in the input */
+input[type="email"]::-webkit-input-placeholder,
+input[type="text"]::-webkit-input-placeholder,
+input[type="password"]::-webkit-input-placeholder{
+  color: #999a9e;
+  font-family: Montserrat-reguler;
+  font-size: 20px;
+}
+
+input[type="email"]
+{
+  font-size: 20px;
+  font-family: Montserrat-reguler;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: black;
+}
+
+input[type="password"] {
+  font:small-caption;
+  font-size:20px;
+}
+
+.alreadyRegis{
+  font-family: Montserrat-reguler;
+  font-size: 18px;
+  font-weight: normal;
+  text-align: left;
+  color: #999a9e;
+}
+
+.alreadyRegis a, .redRef{
+  color: red;
+  font-family: Montserrat-reguler;
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.btnMasuk{
+  margin-bottom: 27px;
+}
