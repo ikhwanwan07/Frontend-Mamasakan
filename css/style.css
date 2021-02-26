@@ -48,7 +48,9 @@
 }
 .map .images {
     margin-top: 40px;
+    
 }
+
 .map a {
  font-size: 20px;
  width: 200px;
@@ -60,16 +62,19 @@ margin-top: 70px;
     background-color: #FFE296;
     font-family: 'Montserrat', sans-serif;  
 }
+.header-mentor {
+    margin: 50px;
+}
 .mentor h1 {
     text-align: center;
+   font-weight: bold;
     font-size: 48px;
     font-family: 'Montserrat', sans-serif; 
 }
 
 .mentor .card {
-    margin-top: 20px;
-    width: 10rem;
-    height: 70px;
+    width: 5rem;
+    height: 10px;
 }
 .testimoni {
     height: 300px;
