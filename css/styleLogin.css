@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+.col-sm{
+  border: 1px red dashed;
+  width: 1000px;
+  margin: auto;
+}
+
+.title, .form-group, .btnMasuk{
+  margin-bottom: 36px;
+}
+
+.title{
+  font-family: Montserrat;
+  font-size: 36px;
+  font-weight: bold;
+  text-align: left;
+}
+
+input[type="email"]::-webkit-input-placeholder,
+input[type="password"]::-webkit-input-placeholder{
+  color: #999a9e;
+  font-family: Montserrat-reguler;
+  font-size: 20px;
+}
+
+input[type="email"]
+{
+  font-size: 20px;
+  font-family: Montserrat-reguler;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: black;
+}
+
+.form-control {
+  height: 70px;
+}
+
+#togglePassword{
+  position: absolute;
+  display: inline-block;
+  cursor: pointer;
+  right: 1rem;
+  top: 1.5rem;
+  z-index: 3;
+  font-size: larger;
+}
+
+.noAccount{
+  font-family: Montserrat-reguler;
+  font-size: 18px;
+  font-weight: normal;
+  text-align: left;
+  color: #999a9e;
+}
+
+.noAccount a{
+  color: red;
+  font-family: Montserrat-reguler;
+  font-weight: 800;
+  text-decoration: none;
+}
