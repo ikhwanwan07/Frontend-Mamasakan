@@ -1,0 +1,148 @@
+.navbar-nav { 
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Montserrat-bold', sans-serif;   
+}
+
+.navbar-nav .nav-item {
+    margin-left: 20px;
+}
+
+.bg-light { 
+    background-color: white !important;
+    box-shadow: 1px 1px 6px rgba(0,0,0,0.1);
+}
+
+.jumbotron {
+    height: 261px;
+    background-image: url(/img/ClassImg/bannerClass.png), radial-gradient(#444, rgb(167, 167, 167));
+    background-blend-mode: multiply;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    position: relative;
+}
+
+.map {
+    height: 680px;
+    background-color: white;
+    text-align: center;
+}
+
+.map h1 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 48px;
+    font-family: 'Montserrat-bold', sans-serif;  
+    margin-top: 100px;
+}
+
+.map .images {
+    margin-top: 40px;
+}
+
+.map a {
+ font-size: 20px;
+ width: 200px;
+ margin-top: 70px;
+}
+
+/* .img-overlay1 {
+ position: relative;
+ text-align: center;
+ width: 100%;
+}
+
+.teks {
+position: absolute;
+font-size: 21px;
+top: 50%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+ width: 100%;
+ color:white;
+ font-weight: bold;
+ font-family: 'Montserrat-bold', sans-serif;
+ background: rgb(0, 0, 0); /* Fallback for older browsers without RGBA-support */
+ /* background: rgba(0, 0, 0, 0.5); */
+/* } */ 
+
+.img-overlay{
+    text-align: center;
+}
+
+.pic {
+    content: "";
+    text-align: center;
+    position: relative;
+    float: left;
+    z-index: 1;
+}
+
+.img-overlay img{
+    background-color: rgba(0,0,0,0.5);
+    background-size: 299px 244px;
+}
+
+.img-overlay .image-thumb{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.img-overlay .text{
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Montserrat-bold', sans-serif;  
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    z-index: 2;
+}
+
+.pic:before{
+    content: "";
+    display: block;
+    width: 300px;
+    height: 225px;
+    background: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+    right: 40px;
+}
+
+.pic:after{
+    content: "";
+    width: 299px;
+    height: 225px;
+    background: rgba(231, 64, 74, 0.26);
+    position: absolute;
+    z-index: -1;
+    bottom: -35px;
+    right: -5px;
+}
+
+.footer {
+    margin-top: 300px;
+    height: 500px;
+    background-color: #FFE296;
+}
+
+.footer h1 {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.footer .copyright {
+    text-align: center;
+    font-weight: bold;
+    color: black;
+    font-family: 'Montserrat', sans-serif; 
+    font-family: 20px;
+}
