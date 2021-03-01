@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&display=swap');
+
+/* style main layout */
+.col-sm{
+  width: 1000px;
+  margin: auto;
+}
+
+.title, .form-group, .btnMasuk{
+  margin-bottom: 36px;
+}
+
+.title{
+  margin-top: 53px;
+  font-family: Montserrat;
+  font-size: 36px;
+  font-weight: bold;
+  text-align: left;
+}
+
+input[type="email"]::-webkit-input-placeholder,
+input[type="text"]::-webkit-input-placeholder,
+input[type="password"]::-webkit-input-placeholder
+{
+  color: #999a9e;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+input[type="email"],
+input[type="text"]
+{
+  font-size: 20px;
+  font-family: Montserrat;
+  font-weight: 500;
+  text-align: left;
+  color: black;
+}
+
+input[type="password"]
+{
+  font-size: 20px;
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 23px;
+  color: black;
+}
+
+.form-control {
+  height: 70px;
+  border-radius: 5px !important;
+  border-collapse: separate; 
+}
+
+.form-control:focus {
+    border-color: black;
+    outline: 0;
+    box-shadow: 0 0 0 0.1rem rgba(0,0,0, 0.3);
+}
+
+#togglePassword{
+  position: absolute;
+  display: inline-block;
+  cursor: pointer;
+  right: 1rem;
+  top: 1.5rem;
+  z-index: 3;
+  font-size: larger;
+  color: #ced4da;
+}
+
+.noAccount{
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 500;
+  text-align: left;
+  color: #999a9e;
+}
+
+.noAccount a{
+  color: red;
+  font-family: Montserrat;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.btnMasuk{
+  background-color: #e7404a;
+  border-radius: 5px;
+  font-family: Montserrat;
+  font-size: 21px;
+  font-weight: bold;
+}

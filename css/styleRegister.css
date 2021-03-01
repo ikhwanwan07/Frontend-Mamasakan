@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&display=swap');
+
+/* style main layout */
+.col-sm{
+  /* border: 1px red dashed; */
+  width: 1000px;
+  margin: auto;
+}
+
+.marginBottom{ /* Margin nama depan, email, dan password*/
+  margin-bottom: 37px;
+}
+
+.title{
+  font-family: Montserrat;
+  font-size: 36px;
+  font-weight: bold;
+  text-align: left;
+  margin-bottom: 21px;
+  margin-top: 38px;
+}
+
+/* height form */
+.form-control {
+  height: 70px;
+}
+
+.form-control:focus {
+    border-color: black;
+    outline: 0;
+    box-shadow: 0 0 0 0.1rem rgba(0,0,0, 0.3);
+}
+
+/* Font in the input */
+input[type="email"]::-webkit-input-placeholder,
+input[type="text"]::-webkit-input-placeholder,
+input[type="password"]::-webkit-input-placeholder{
+  color: #999a9e;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+input[type="email"],
+input[type="text"]
+{
+  font-size: 21px;
+  font-family: Montserrat;
+  font-weight: 500;
+  text-align: left;
+  color: black;
+}
+
+input[type="password"] {
+  font:small-caption;
+  font-size:21px;
+}
+
+.alreadyRegis{
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 500;
+  text-align: left;
+  color: #999a9e;
+}
+
+.alreadyRegis a, .redRef{
+  color: red;
+  font-family: Montserrat;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.redRef:hover{
+  color: red;
+  text-decoration: none;
+}
+
+.btnDaftar:disabled{
+  background: grey;
+}
+
+.btnDaftar{
+  margin-bottom: 13px;
+  font-family: Montserrat;
+  font-weight: 700;
+  height: 70px;
+}
+
+/* modal style */
+.modalPicture{
+  margin-top: 10px;
+  margin-bottom: 27px;
+}
+.modalText{
+  font-family: Montserrat;
+  font-size: 21px;
+  font-weight: bold;
+}
+.modal-content{
+  border-radius: 10px;
+}
+
+/* style button modal */
+.col{
+  margin-top: 18px;
+  width: 197px;
+  margin: auto;
+}
