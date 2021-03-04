@@ -12,7 +12,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.min.css">
-    <link rel="stylesheet" href="/css/classSumatera.css">
+    <link rel="stylesheet" href="/css/cssClass/classSumatera.css">
 </head>
 
 <body>
@@ -58,46 +58,75 @@
     </nav>
     <!-- end navbar -->
 
-    <!-- konten -->
-    <section class="sumatera">
+    <!-- banner -->
+    <div class="jumbotron">
         <div class="container">
             <div class="row">
-                <div class="col-sm-6 title">
-                    <h1><b>Masakan Sumatera</b></h1>
-                </div>
-                <div class="col-sm-6 text-right mapsumatera">
-                    <img src="../img/sumatera.png" alt="">
+                <div class="col-sm-12">
+                    <h1 class="content"><b>Sumatera</b></h1>
+                    <hr>
                 </div>
             </div>
+        </div>
+    </div>
+    <!-- end banner -->
+
+    <!-- konten -->
+    <section class="card-sumatera">
+        <div class="container pt-5">
             <div class="row">
-                <div class="col-sm-6 text-center">
-                    <img src="../img/Pempek.png" alt="">
-                    <h3>Pempek <br> Palembang</h3>
+                <div class="col-sm-6">
+                    <a href="">
+                        <div class="card">
+                            <img src="/img/ClassImg/Rendang.png" class="card-img-top" alt="">
+                            <div class="row">
+                                <div class="card-body col-sm-6">
+                                    <h5 class="card-title">Rendang <br> Padang</h5>
+                                </div>
+                                <div class="card-body col-sm-6 text-right">
+                                    <p class="card-paid">Rp. 250.000</p>
+                                    <p class="card-text">Level: Dasar <br> Durasi: 25 menit</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
                 </div>
-                <div class="col-sm-6 text-center">
-                    <img src="../img/Rendang.png" alt="">
-                    <h3>Rendang <br> Padang</h3>
+                <div class="col-sm-6">
+                    <a href="">
+                        <div class="card">
+                            <img src="/img/ClassImg/Pempek.png" class="card-img-top" alt="">
+                            <div class="row">
+                                <div class="card-body col-sm-6">
+                                    <h5 class="card-title">Pempek<br> Palembang</h5>
+                                </div>
+                                <div class="card-body col-sm-6 text-right">
+                                    <p class="card-paid">Rp. 350.000</p>
+                                    <p class="card-text">Level: Menengah <br> Durasi: 30 menit</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
                 </div>
             </div>
         </div>
     </section>
-    <!-- end konten -->
 
     <!-- Mentor Sumatera -->
     <section class="mentorSumatera">
-        <div class="container pt-5">
+        <div class="container">
             <div class="col-sm-12 text-center">
-                <h1><b>Mentor</b></h1>
+                <h1 class="mentor"><b>Mentor</b></h1>
+                <hr>
             </div>
             <div class="row">
                 <div class="col pt-5">
-                    <img src="../img/WilliamW.png" alt="">
+                    <img src="../img/ClassImg/WilliamW.png" alt="">
                 </div>
                 <div class="col text-justify pt-5">
                     <h1><b>Chef William Wongso</b></h1>
-                    <p>William Wirjaatmadja Wongso adalah seorang pakar
+                    <p id="porto">William Wirjaatmadja Wongso adalah seorang pakar
                         kuliner terkenal Indonesia. Ia dikenal luas sebagai ahli
-                        kuliner yang menguasai seni masakan Eropa dan Asia.</p>
+                        kuliner yang menguasai seni masakan Eropa dan Asia. </p>
                     <p>Keahliannya dalam memasak tidak diperoleh melalui
                         pendidikan formal melainkan dari berguru langsung
                         dengan pemilik warung di pinggir jalan hingga penyaji
@@ -115,11 +144,12 @@
         <div class="container pt-5">
             <div class="row">
                 <div class="col-sm-5">
-                    <img src="../img/Icon.png" alt="">
+                    <img src="../img/ClassImg/Icon.png" alt="">
                 </div>
                 <div class="col-sm-7">
                     <h1><b>Jadilah Master Masakan <br> Indonesia!</b></h1>
-                    <h3>Temukan kelas yang sesuai dengan minatmu. Kami bantu kamu menentukan kelas yang paling ideal.
+                    <h3>Temukan kelas yang sesuai dengan minatmu. Kami bantu kamu menentukan kelas yang paling
+                        ideal.
                     </h3>
                     <a href="" class="btn btn-danger">Hubungi Kami</a>
                 </div>
