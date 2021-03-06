@@ -134,12 +134,12 @@ width: 260px;
 
 }
 .testimoni {
-    height: 750px;
+    height: 600px;
  background-color: #454649;
 }
 .footer {
     margin:0;
-    height: 500px;
+    height: 485px;
     background-color: #e7404a;
 }
 
@@ -154,7 +154,14 @@ width: 260px;
     font-family: 'Montserrat', sans-serif; 
     font-family: 20px;
 }
+.fa {
+    font-size: 40px;
+    margin: 0 20px 0 0;
+}
 
+.container-footer {
+    padding-top: 100px;
+}
 
 @media (min-width: 992px) {
     .navbar-light .navbar-nav .nav-link:hover {
