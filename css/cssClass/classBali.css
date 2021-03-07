@@ -1,5 +1,5 @@
 .navbar-nav { 
-    font-size: 16px;
+    font-size: 16px; 
     font-weight: bold;
     font-family: 'Montserrat-bold', sans-serif;  
 }
@@ -13,11 +13,11 @@
     box-shadow: 1px 1px 6px rgba(0,0,0,0.1);
 }
 
+/* banner */
 .jumbotron {
-    height: 307px;
-    /* background: rgb(255, 255, 255); */
-    background-image: url(/img/ClassImg/bannerBali.png);
-    /* background-image: url(/img/ClassImg/bannerSumatera.png), linear-gradient(rgb(171, 171, 171), rgba(171, 171, 171, 0.8)); */
+    height: 308px;
+    background-image: url(/img/ClassImg/Banner.png), radial-gradient(#444, rgba(0, 0, 0, 0.5));
+    background-blend-mode: multiply;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -25,28 +25,102 @@
     position: relative;
 }
 
-.jumbotron .container{
-    z-index: 3;
-    position: relative;
+.map {
+    height: 680px;
+    background-color: white;
+    text-align: center;
 }
 
-.jumbotron::after {
-    content: '';
-    display: block;
-    background: rgba(143, 143, 143, 0.6);
-    width: 100%;
-    height: 100%;
-    position:absolute;
-    z-index: 2;
-    bottom: 0;
-    left: 0;
+.map h1 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 48px;
+    font-family: 'Montserrat-bold', sans-serif;  
+    margin-top: 100px;
 }
 
-.jumbotron hr {
-    width: 283px;
-    height: 9px;
-    margin-top: 0px;
-    border-top: 4px solid red;
+.map .images {
+    margin-top: 40px;
+}
+
+.map a {
+ font-size: 20px;
+ width: 200px;
+ margin-top: 70px;
+}
+
+/* search */
+.search-bar {
+    position: absolute;
+    width: 668px;
+    height: 62px;
+    left: 650px;
+    top: 1030px;
+}
+
+.btn-secondary {
+    color: #e7404a;
+    border: solid 1px #e7404a;
+    border-right:none;
+    background-color: rgba(231, 64, 74, 0.07);
+}
+
+.btn-secondary:hover {
+    background-color: #e7404a;
+    border: solid 1px #e7404a;
+}
+
+.input-group input {
+    font-size: 19px;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    border: solid 1px #e7404a;
+    border-left: none;
+    border-radius: 5px;
+    background-color: rgba(231, 64, 74, 0.07);
+}
+.form-control::placeholder {
+    color: #e7404a;
+}
+/* kategori */
+.kategori {
+    margin-top: -70px;
+    margin-left: 90px;
+}
+
+.kategori h4 {
+    font-size: 21px;
+    font-family: 'Montserrat-Regular';
+    color: #e7404a;
+    margin-top: 30px;
+    margin-left: -18px;
+}
+
+.btn-link {
+    margin: 18px;
+    border-radius: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    position: static;
+    background-color: #ffe2e2;
+    color: #e7404a;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 21px;
+    font-weight: bold;
+    font-family: 'Montserrat';
+}
+
+.btn-link:hover {
+    background-color: #e7404a;
+    color: white;
+    text-decoration: none;
+    transition: none;
+}
+.btn-link:focus {
+    background-color: #e7404a;
+    color: white;
+    text-decoration: none;
 }
 
 .content {
@@ -138,7 +212,7 @@
     font-family: 'Montserrat-bold', sans-serif; 
 }
 
-.btn {
+.btn-danger {
     padding: 15px 63px !important;
     font-size: 21px;
     font-weight: 700;
