@@ -81,6 +81,7 @@
 .form-control::placeholder {
     color: #e7404a;
 }
+
 /* kategori */
 .kategori {
     margin-top: -70px;
@@ -121,6 +122,11 @@
     background-color: #e7404a;
     color: white;
     text-decoration: none;
+}
+
+.red {
+    background-color: #e7404a;
+    color: white;
 }
 
 /* konten */

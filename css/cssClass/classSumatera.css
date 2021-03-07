@@ -7,7 +7,7 @@
 .navbar-nav .nav-item {
     margin-left: 20px;
 }
-
+ 
 .bg-light { 
     background-color: white !important;
     box-shadow: 1px 1px 6px rgba(0,0,0,0.1);
@@ -81,6 +81,19 @@
 .form-control::placeholder {
     color: #e7404a;
 }
+
+.btn-link:focus {
+    background-color: #e7404a;
+    color: white;
+    text-decoration: none;
+}
+
+.red {
+    background-color: #e7404a;
+    color: white;
+}
+
+
 /* kategori */
 .kategori {
     margin-top: -70px;
