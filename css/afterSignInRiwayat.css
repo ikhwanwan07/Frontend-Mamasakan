@@ -1,0 +1,56 @@
+.container-fluid{
+  border: 1px red dashed;
+  margin-top: 46px;
+}
+
+.container-lg{
+  border: 1px red dashed;
+}
+.mainSection{
+  margin: auto 80px;
+  /* margin-left: 165px;
+  margin-right: 165px; */
+}
+
+/* .row{
+  border: 1px red dashed;
+} */
+.col-9{
+  border: 1px red dashed;
+  /* margin-right: 100px; */
+}
+.col-2, col{
+  /* width: 22%; */
+  /* margin-left: 100px; */
+  border: 1px red dashed;
+}
+
+/* icon properties */
+.fa-search{
+  position: absolute;
+  display: inline-block;
+  cursor: pointer;
+  right: 0.5rem;
+  top: 0.5rem;
+  z-index: 3;
+  font-size: larger;
+  color: #454649;
+}
+
+/* form search properties */
+.form-control {
+  /* height: 10px; */
+  border-radius: 5px !important;
+  border-collapse: separate; 
+  margin-bottom: 38px;
+}
+
+.list-group-item{
+  border: none;
+  padding: 0px;
+  margin-bottom: 24px;
+}
+
+#btnKelas{
+  color: red;
+}

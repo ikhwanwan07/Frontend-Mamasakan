@@ -1,37 +1,92 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&display=swap');
 
-/* style main layout */
-.col-sm{
-  width: 1000px;
-  margin: auto;
+/* Main Layout */
+html, body{
+  height: 100%;
+  width: 100%;
+  font-family: Montserrat importan !important; 
 }
 
-.title, .form-group, .btnMasuk{
-  margin-bottom: 36px;
+/* Left Side col 1 */
+.leftSide{
+    /* background: url("../img/SignInBanner.png")no-repeat top left fixed; */
+    background-image:linear-gradient(0deg,  #00000088 30%, #ffffff44 100%), url(../img/SignInBanner2.svg) ;
+    background-size: cover;
+    height: 88.5vh;
+    width: 50vw;
 }
 
-.title{
-  margin-top: 53px;
-  font-family: Montserrat;
+.imgBox{
+  margin: 0 10%;
+  color: white;
+}
+
+.imgBox h1{
   font-size: 36px;
-  font-weight: bold;
-  text-align: left;
+  font-weight: 700;
 }
 
-input[type="email"]::-webkit-input-placeholder,
+.imgBox hr{
+  height: 0.2rem;
+  width: 15rem;
+  opacity: 85%;
+  margin: 15px 0 28px 0;
+  background-color: #e7404a;
+}
+
+.imgBox p{
+  font-size: 21px;
+  font-weight: 300;
+  letter-spacing: normal;
+}
+
+/* Right Side col2 */
+.rightSide{
+  margin-top: 18vh;
+}
+
+.form-group, .btnMasuk{
+  margin-bottom: 10px;
+}
+
+#inputPassword{
+  margin-bottom: 35px;
+}
+
+.checkIngatkan{
+  width: 15px;
+  height: 15px;
+}
+
+.ingatkan, .lupaPassword{
+  font-size: 18px;
+}
+
+.lupaPassword{
+  color: #e7404a;
+  font-family: Montserrat;
+  /* font-weight: 300; */
+  text-decoration: none;
+}
+
+
+/* input[type="email"]::-webkit-input-placeholder,
 input[type="text"]::-webkit-input-placeholder,
 input[type="password"]::-webkit-input-placeholder
 {
   color: #999a9e;
   font-family: Montserrat;
-  font-size: 20px;
+  font-size: 1px;
   font-weight: 300;
+} */
+label{
+  color: #999a9e;
 }
 
 input[type="email"],
 input[type="text"]
 {
-  font-size: 20px;
+  font-size: 16px;
   font-family: Montserrat;
   font-weight: 500;
   text-align: left;
@@ -40,33 +95,33 @@ input[type="text"]
 
 input[type="password"]
 {
-  font-size: 20px;
+  font-size: 22px;
   font-family: Montserrat;
   font-weight: 500;
-  font-size: 23px;
   color: black;
 }
 
 .form-control {
-  height: 70px;
   border-radius: 5px !important;
   border-collapse: separate; 
+  padding-right: 29px;
+
 }
 
 .form-control:focus {
-    border-color: black;
-    outline: 0;
-    box-shadow: 0 0 0 0.1rem rgba(0,0,0, 0.3);
+  border-color: black;
+  outline: 0;
+  box-shadow: 0 0 0 0.1rem rgba(0,0,0, 0.3);
 }
 
 #togglePassword{
   position: absolute;
   display: inline-block;
   cursor: pointer;
-  right: 1rem;
-  top: 1.5rem;
+  right: 0.4rem;
+  top: 1.2rem;
   z-index: 3;
-  font-size: larger;
+  font-size: 20px;
   color: #ced4da;
 }
 
@@ -74,14 +129,18 @@ input[type="password"]
   font-family: Montserrat;
   font-size: 18px;
   font-weight: 500;
-  text-align: left;
   color: #999a9e;
 }
 
 .noAccount a{
-  color: red;
+  color: #e7404a;
   font-family: Montserrat;
   font-weight: 500;
+  text-decoration: none;
+}
+
+.noAccount a:hover, .lupaPassword:hover{
+  color: #e7404a;
   text-decoration: none;
 }
 
@@ -91,4 +150,9 @@ input[type="password"]
   font-family: Montserrat;
   font-size: 21px;
   font-weight: bold;
+  margin-top: 40px;
+}
+
+.btnMasuk:hover{
+  background-color: #ffb900;
 }
