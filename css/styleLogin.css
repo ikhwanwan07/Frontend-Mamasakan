@@ -46,7 +46,7 @@ html, body{
 }
 
 .form-group, .btnMasuk{
-  margin-bottom: 29px;
+  margin-bottom: 10px;
 }
 
 #inputPassword{
@@ -70,7 +70,7 @@ html, body{
 }
 
 
-input[type="email"]::-webkit-input-placeholder,
+/* input[type="email"]::-webkit-input-placeholder,
 input[type="text"]::-webkit-input-placeholder,
 input[type="password"]::-webkit-input-placeholder
 {
@@ -78,6 +78,9 @@ input[type="password"]::-webkit-input-placeholder
   font-family: Montserrat;
   font-size: 1px;
   font-weight: 300;
+} */
+label{
+  color: #999a9e;
 }
 
 input[type="email"],
