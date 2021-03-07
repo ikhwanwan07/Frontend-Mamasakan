@@ -57,12 +57,12 @@ margin-top: 70px;
 }
 
 .mentor {
-    height: 600px;
+    height: 700px;
     background-color: #FFE296;
     font-family: 'Montserrat', sans-serif;  
 }
-.header-mentor {
-    margin: 50px;
+.header-mentor h1 {
+    padding-top: 50px;
 }
 .mentor h1 {
     text-align: center;
@@ -70,23 +70,82 @@ margin-top: 70px;
     font-size: 48px;
     font-family: 'Montserrat', sans-serif; 
 }
+hr {
+    border: 2px solid #e7404a;
+    width: 150px;
+    align-items: center;
+  
+}
+.content-why {
+    padding-top: 100px;
+}
 
-.mentor .card {
-    width: 5rem;
-    height: 10px;
+.content-text h2 {
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000000;
+}
+
+.content-text h5 {
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #454649;
+}
+
+.mentor-text {
+    text-align: center;
+    font-family: Montserrat;
+  font-size: 24px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #454649;
+}
+.kotak {
+width: 260px;
+  height: 162px;
+  margin: 20px;
+  padding: 2px 6.4px 29.6px 2px;
+  border-radius: 10px;
+  background-color: #454649;
+}
+
+.img-mentor {
+    width: 300px;
+    height: 278px
+}
+.content-kotak{
+    color: white;
+
 }
 .testimoni {
-    height: 300px;
+    height: 600px;
+ background-color: #454649;
 }
 .footer {
-    margin-top: 300px;
-    height: 500px;
-    background-color: #FFE296;
+    margin:0;
+    height: 485px;
+    background-color: #e7404a;
 }
 
 .footer h1 {
     text-align: center;
-    margin-top: 100px;
+    padding-top: 50px;
 }
 .footer .copyright {
     text-align: center;
@@ -95,7 +154,14 @@ margin-top: 70px;
     font-family: 'Montserrat', sans-serif; 
     font-family: 20px;
 }
+.fa {
+    font-size: 40px;
+    margin: 0 20px 0 0;
+}
 
+.container-footer {
+    padding-top: 100px;
+}
 
 @media (min-width: 992px) {
     .navbar-light .navbar-nav .nav-link:hover {
