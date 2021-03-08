@@ -1,0 +1,226 @@
+.navbar-nav { 
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Montserrat-bold', sans-serif;  
+}
+
+.navbar-nav .nav-item {
+    margin-left: 20px;
+}
+
+.bg-light { 
+    background-color: white !important;
+    box-shadow: 1px 1px 6px rgba(0,0,0,0.1);
+}
+/* banner */
+.jumbotron {
+    height: 308px;
+    background-image: url(/img/ClassImg/Banner.png), radial-gradient(#444, rgba(0, 0, 0, 0.5));
+    background-blend-mode: multiply;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    position: relative;
+}
+
+.map {
+    height: 680px;
+    background-color: white;
+    text-align: center;
+}
+
+.map h1 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 48px;
+    font-family: 'Montserrat-bold', sans-serif;  
+    margin-top: 100px;
+}
+
+.map .images {
+    margin-top: 40px;
+}
+
+.map a {
+ font-size: 20px;
+ width: 200px;
+ margin-top: 70px;
+}
+
+/* search */
+.search-bar {
+    position: absolute;
+    width: 668px;
+    height: 62px;
+    left: 650px;
+    top: 1030px;
+}
+
+.btn-secondary {
+    color: #e7404a;
+    border: solid 1px #e7404a;
+    border-right:none;
+    background-color: rgba(231, 64, 74, 0.07);
+}
+
+.btn-secondary:hover {
+    background-color: #e7404a;
+    border: solid 1px #e7404a;
+}
+
+.input-group input {
+    font-size: 19px;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    border: solid 1px #e7404a;
+    border-left: none;
+    border-radius: 5px;
+    background-color: rgba(231, 64, 74, 0.07);
+}
+.form-control::placeholder {
+    color: #e7404a;
+}
+
+.btn-link:focus {
+    background-color: #e7404a;
+    color: white;
+    text-decoration: none;
+}
+
+.red {
+    background-color: #e7404a !important; 
+    color: white !important;
+}
+
+
+/* kategori */
+.kategori {
+    margin-top: -70px;
+    margin-left: 90px;
+}
+
+.kategori h4 {
+    font-size: 21px;
+    font-family: 'Montserrat-Regular';
+    color: #e7404a;
+    margin-top: 30px;
+    margin-left: -18px;
+}
+
+.btn-link {
+    margin: 18px;
+    border-radius: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    position: static;
+    background-color: #ffe2e2;
+    color: #e7404a;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 21px;
+    font-weight: bold;
+    font-family: 'Montserrat';
+}
+
+.btn-link:hover {
+    background-color: #e7404a;
+    color: white;
+    text-decoration: none;
+    transition: none;
+}
+.content {
+    padding-top: 50px;
+    font-size: 50px;
+    color:black;
+    font-weight: bold;
+    font-family: 'Montserrat-Bold', sans-serif;
+}
+
+.card-sumatera {
+    height: 700px;
+}
+
+.card {
+    width: 517px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+.card-title {
+    padding-left: 34px;
+    font-size: 24px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-family: 'Montserrat-bold', sans-serif;
+}
+
+.card-paid {
+    padding-right: 34px;
+    font-size: 24px;
+    text-decoration: none;
+    color: red;
+    font-weight: bold;
+    font-family: 'Montserrat-bold', sans-serif;
+}
+
+.card-text {
+    padding-right: 34px;
+    font-size: 18px;
+    text-decoration: none;
+    color: rgb(209, 0, 0);
+    font-family: 'Montserrat-regular', sans-serif;
+}
+
+.mentorSumatera {
+    height: 700px;
+    background-color: white;
+    font-size: 21px;
+    font-family: 'Montserrat-bold', sans-serif;  
+}
+
+#porto {
+    padding-top: 51px;
+}
+
+.mentorSumatera h1 {
+    padding-top: 13px;
+    font-size: 48px;
+    font-family: 'Montserrat-bold', sans-serif;
+}
+
+.mentorSumatera .mentor {
+  margin-bottom: 5px;
+  font-size: 48px;
+  font-weight: bold;
+  font-family: 'Montserrat-bold', sans-serif;
+}
+
+.mentorSumatera hr {
+    width: 190px;
+    height: 6px;
+    margin-top: 0px;
+    border-top: 4px solid red;
+}
+
+.pilihClass {
+    height: 386px;
+    background-color: #FFE296;
+    font-family: 'Montserrat-bold', sans-serif;  
+}
+
+.pilihClass h3 {
+    font-size: 24px;
+    margin-top: 19px;
+    margin-bottom: 41px;
+    font-family: 'Montserrat-bold', sans-serif; 
+}
+
+.btn-danger {
+    padding: 15px 63px !important;
+    font-size: 21px;
+    font-weight: 700;
+    font-family: 'Montserrat-bold', sans-serif; 
+}

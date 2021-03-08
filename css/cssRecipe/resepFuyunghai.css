@@ -1,0 +1,94 @@
+.navbar-nav { 
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;   
+}
+.navbar-nav .nav-item {
+    margin-left: 20px;
+}
+
+.bg-light { 
+    background-color: white !important;
+    box-shadow: 1px 1px 6px rgba(0,0,0,0.1);
+}
+
+.reseptxt h3 {
+    padding-top: 10px;
+    color: red;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Montserrat-bold', sans-serif;
+}
+
+.reseptxt hr {
+    width: 78px;
+    height: 3px;
+    margin-left: 0px;
+    margin-top: -4px;
+    border-top: 3px solid darkgray;
+}
+
+.reseptxt h1 {
+    font-size: 36px;
+    font-family: 'Montserrat-bold',sans-serif;
+}
+
+.reseptxt p {
+    font-size: 18px;
+    font-family: 'Montserrat-bold',sans-serif;
+}
+
+.imgResep {
+    margin-left: 50px;
+}
+
+.resepContent {
+    padding-top: 63px;
+    padding-bottom: 89px;
+    margin-left: 50px;
+}
+
+.pilihClass {
+    height: 386px;
+    background-color: #FFE296;
+    font-family: 'Montserrat-bold', sans-serif;  
+}
+
+.pilihClass h3 {
+    font-size: 24px;
+    margin-top: 19px;
+    margin-bottom: 41px;
+    font-family: 'Montserrat-bold', sans-serif; 
+}
+
+.btn {
+    padding: 15px 63px !important;
+    font-size: 21px;
+    font-weight: 700;
+    font-family: 'Montserrat-bold', sans-serif; 
+}
+
+.footer {
+    margin-top: 300px;
+    height: 500px;
+    background-color: #FFE296;
+}
+
+.footer h1 {
+    text-align: center;
+    margin-top: 100px;
+}
+.footer .copyright {
+    text-align: center;
+    font-weight: bold;
+    color: black;
+    font-family: 'Montserrat', sans-serif; 
+    font-family: 20px;
+}
+
+
+@media (min-width: 992px) {
+    .navbar-light .navbar-nav .nav-link:hover {
+        color: #E7404A;
+    }
+}
