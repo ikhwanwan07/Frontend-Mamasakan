@@ -5,7 +5,7 @@
 html, body{
   height: 100%;
   width: 100%;
-  font-family: Montserrat importan !important; 
+  font-family: Montserrat !important; 
 }
 
 /* Left Side col 1 */
@@ -13,12 +13,12 @@ html, body{
     /* background: url("../img/SignInBanner.png")no-repeat top left fixed; */
     background-image:url(../img/SignUpBanner.png) ;
     background-size: cover;
-    height: 88.5vh;
+    height: 90.1vh;
     width: 50vw;
 }
 
 .imgBox{
-  margin: 0 10%;
+  margin: 16% 10%;
   color: black;
 }
 
@@ -37,14 +37,24 @@ html, body{
 
 .imgBox p{
   font-size: 21px;
-  font-weight: 300;
+  font-weight: 500;
   letter-spacing: normal;
 }
 
 /* Right Side col 2 */
 .rightSide{
-  /* margin-top: 18vh; */
+  margin-top: 8%; 
   /* padding: 0 5vw 0 5vw; */
+}
+
+.form-floating > .form-control, .form-floating > .form-select {
+	 height: calc(3.5rem - 15px);
+	 padding: 0.4rem 0.75rem;
+   /* padding: 1px 40px; */
+}
+
+.form-floating>label {
+    padding: 0.63rem .75rem;
 }
 
 .marginBottom{ /* Margin nama depan, email, dan password*/
@@ -61,6 +71,17 @@ html, body{
     box-shadow: 0 0 0 0.1rem rgba(0,0,0, 0.3);
 }
 
+#togglePassword{
+  position: absolute;
+  display: inline-block;
+  cursor: pointer;
+  right: 0.5rem;
+  top: 0.7rem;
+  z-index: 3;
+  font-size: 20px;
+  color: #ced4da;
+}
+
 /* Font in the input */
 /* input[type="email"]::-webkit-input-placeholder,
 input[type="text"]::-webkit-input-placeholder,
@@ -73,6 +94,7 @@ input[type="password"]::-webkit-input-placeholder{
 
 label, .passwordText{
   color: #999a9e;
+  font-size: 14px;
 }
 
 input[type="email"],
@@ -111,7 +133,7 @@ input[type="password"] {
 
 .rules{
   color: red;
-  font-weight: 300;
+  /* font-weight: 300; */
   text-decoration: none;
 }
 
@@ -156,7 +178,7 @@ input[type="password"] {
 }
 
 /* style button modal */
-.col{
+.btnModal{
   margin-top: 18px;
   width: 197px;
   margin: auto;

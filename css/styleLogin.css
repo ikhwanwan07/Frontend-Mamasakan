@@ -4,20 +4,21 @@
 html, body{
   height: 100%;
   width: 100%;
-  font-family: Montserrat importan !important; 
+  font-family: Montserrat !important; 
 }
 
 /* Left Side col 1 */
 .leftSide{
     /* background: url("../img/SignInBanner.png")no-repeat top left fixed; */
-    background-image:linear-gradient(0deg,  #00000088 30%, #ffffff44 100%), url(../img/SignInBanner2.svg) ;
+    /* background-image:linear-gradient(0deg,  #00000088 30%, #ffffff44 100%), url(../img/SignInBanner2.svg) ; */
+    background-image:linear-gradient(10deg,  #ffffff44 20%, #00000088 50%), url(../img/SignInBanner2.svg) ;
     background-size: cover;
-    height: 88.5vh;
+    height: 90.1vh;
     width: 50vw;
 }
 
 .imgBox{
-  margin: 0 10%;
+  margin: 16% 10%;
   color: white;
 }
 
@@ -36,13 +37,23 @@ html, body{
 
 .imgBox p{
   font-size: 21px;
-  font-weight: 300;
+  font-weight: 500;
   letter-spacing: normal;
 }
 
 /* Right Side col2 */
 .rightSide{
-  margin-top: 18vh;
+  margin-top: 16%;
+}
+
+.form-floating > .form-control, .form-floating > .form-select {
+	 height: calc(3.5rem - 15px);
+	 padding: 0.4rem 0.75rem;
+   /* padding: 1px 40px; */
+}
+
+.form-floating>label {
+    padding: 0.63rem .75rem;
 }
 
 .form-group, .btnMasuk{
@@ -59,7 +70,7 @@ html, body{
 }
 
 .ingatkan, .lupaPassword{
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .lupaPassword{
@@ -118,16 +129,15 @@ input[type="password"]
   position: absolute;
   display: inline-block;
   cursor: pointer;
-  right: 0.4rem;
-  top: 1.2rem;
+  right: 0.5rem;
+  top: 0.7rem;
   z-index: 3;
   font-size: 20px;
   color: #ced4da;
 }
 
 .noAccount{
-  font-family: Montserrat;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 500;
   color: #999a9e;
 }
@@ -147,9 +157,8 @@ input[type="password"]
 .btnMasuk{
   background-color: #e7404a;
   border-radius: 5px;
-  font-family: Montserrat;
-  font-size: 21px;
-  font-weight: bold;
+  font-size: 16px;
+  font-weight: 700;
   margin-top: 40px;
 }
 
