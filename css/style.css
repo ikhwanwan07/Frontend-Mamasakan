@@ -6,6 +6,11 @@
 .navbar-nav .nav-item {
     margin-left: 20px;
 }
+.daftar {
+    color: white;
+    font-weight: bold;
+    margin-left: 20px;
+}
 
 .bg-light { 
     background-color: white !important;
@@ -131,7 +136,11 @@ width: 260px;
 }
 .content-kotak{
     color: white;
+}
 
+.content-kotak h5 {
+    font-weight: bold;
+    font-size: 20px;
 }
 .testimoni {
     height: 600px;
@@ -161,6 +170,11 @@ width: 260px;
 
 .container-footer {
     padding-top: 100px;
+}
+.img-footer{
+    width: 300px;
+    height: 100px;
+    margin-top: -20px;
 }
 
 @media (min-width: 992px) {
