@@ -123,6 +123,11 @@
     text-decoration: none;
 }
 
+.red {
+    background-color: #e7404a !important;
+    color: white !important;
+}
+
 .content {
     padding-top: 50px;
     font-size: 50px;

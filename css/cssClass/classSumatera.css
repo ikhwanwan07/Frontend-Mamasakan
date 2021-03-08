@@ -89,8 +89,8 @@
 }
 
 .red {
-    background-color: #e7404a;
-    color: white;
+    background-color: #e7404a !important;
+    color: white !important;
 }
 
 
