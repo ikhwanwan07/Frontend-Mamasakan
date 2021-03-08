@@ -1,28 +1,58 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&display=swap');
 
 /* style main layout */
-.col-sm{
-  /* border: 1px red dashed; */
-  width: 1000px;
-  margin: auto;
+/* Main Layout */
+html, body{
+  height: 100%;
+  width: 100%;
+  font-family: Montserrat !important; 
+}
+
+/* Left Side col 1 */
+.leftSide{
+    /* background: url("../img/SignInBanner.png")no-repeat top left fixed; */
+    background-image:url(../img/SignUpBanner.png) ;
+    background-size: cover;
+    height: 88.5vh;
+    width: 50vw;
+}
+
+.imgBox{
+  margin: 0 8%;
+  color: black;
+}
+
+.imgBox h1{
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.imgBox hr{
+  height: 0.2rem;
+  width: 15rem;
+  opacity: 85%;
+  margin: 15px 0 28px 0;
+  background-color: #e7404a;
+}
+
+.imgBox p{
+  font-size: 21px;
+  font-weight: 300;
+  letter-spacing: normal;
+}
+
+/* Right Side col 2 */
+.rightSide{
+  /* margin-top: 18vh; */
+  /* padding: 0 5vw 0 5vw; */
 }
 
 .marginBottom{ /* Margin nama depan, email, dan password*/
-  margin-bottom: 37px;
+  margin-bottom: 20px;
 }
 
-.title{
-  font-family: Montserrat;
-  font-size: 36px;
-  font-weight: bold;
-  text-align: left;
-  margin-bottom: 21px;
-  margin-top: 38px;
-}
-
-/* height form */
-.form-control {
-  height: 70px;
+.form-control{
+  border-radius: 5px;
 }
 
 .form-control:focus {
@@ -32,19 +62,23 @@
 }
 
 /* Font in the input */
-input[type="email"]::-webkit-input-placeholder,
+/* input[type="email"]::-webkit-input-placeholder,
 input[type="text"]::-webkit-input-placeholder,
 input[type="password"]::-webkit-input-placeholder{
   color: #999a9e;
   font-family: Montserrat;
   font-size: 20px;
   font-weight: 300;
+} */
+
+label, .passwordText{
+  color: #999a9e;
 }
 
 input[type="email"],
 input[type="text"]
 {
-  font-size: 21px;
+  font-size: 16px;
   font-family: Montserrat;
   font-weight: 500;
   text-align: left;
@@ -55,6 +89,10 @@ input[type="password"] {
   font:small-caption;
   font-size:21px;
 }
+
+/* .passwordText{
+  color: #454649;
+} */
 
 .alreadyRegis{
   font-family: Montserrat;
@@ -71,6 +109,12 @@ input[type="password"] {
   text-decoration: none;
 }
 
+.rules{
+  color: red;
+  font-weight: 300;
+  text-decoration: none;
+}
+
 .redRef:hover{
   color: red;
   text-decoration: none;
@@ -84,7 +128,15 @@ input[type="password"] {
   margin-bottom: 13px;
   font-family: Montserrat;
   font-weight: 700;
-  height: 70px;
+}
+
+.btnDaftar:hover{
+  background-color: #ffb900;
+  border: 1px #ffb900 solid;
+}
+.redRef:hover,
+.rules:hover{
+  color: #ffb900;
 }
 
 /* modal style */
@@ -92,11 +144,13 @@ input[type="password"] {
   margin-top: 10px;
   margin-bottom: 27px;
 }
+
 .modalText{
   font-family: Montserrat;
   font-size: 21px;
   font-weight: bold;
 }
+
 .modal-content{
   border-radius: 10px;
 }
@@ -107,3 +161,4 @@ input[type="password"] {
   width: 197px;
   margin: auto;
 }
+
