@@ -16,13 +16,14 @@
 
 <body>
   <!-- After Sign in Page -->
-  <div class="container-fluid">
-    <h1>Selamat Datang, Jahira!</h1>
-    <!-- img -->
+  <div class="container-fluid text-center  g-0">
+    <div class="col headerAfter">
+      <h1 class="">Selamat Datang, Jahira!</h1>
+    </div>
   </div>
   <div class="container-lg">
     <div class="row">
-      <div class="col-md-auto">
+      <div class="col-md-auto py-3">
         <form action="" class="form-group input-group">
           <input type="text" class="form-control" id="inputPassword" placeholder="Pencarian">
           <a href=""><i class="fas fa-search" id="togglePassword"></i></a>
@@ -32,13 +33,14 @@
         <a href="#" class="list-group-item list-group-item-action" id="btnRiwayat">Riwayat Pemesanan</a>
         <a href="#" class="list-group-item list-group-item-action" id="btnSignOut">Sign Out</a>
       </div>
-      <div class="col-2">
-        <h1>Photo</h1>
+      <div class="col-2 text-center py-3 secondCol">
+        <img src="img/user.svg" alt="" class="mb-2" width="160px" height="160px">
+        <a href="" class="gantiFoto">Ganti foto</a>
       </div>
-      <div class="col">
+      <div class="col py-3">
         <!-- form -->
         <label for="" class="email">Email</label>
-        <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+        <input type="email" class="form-control" id="inputEmail" placeholder="Email" disabled>
         <div class="row">
           <div class="col">
             <label for="" class="namaDepan">Nama depan</label>
@@ -50,7 +52,7 @@
           </div>
         </div>
         <label for="">Alamat</label> <br>
-        <textarea name="" id="" class="form-control"></textarea>
+        <textarea name="" id="" class="form-control" placeholder="Alamat"></textarea>
         <button type="button" class="btn btn-danger">Simpan</button>
       </div>
     </div>
