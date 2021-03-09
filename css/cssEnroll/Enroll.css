@@ -6,6 +6,11 @@
 .navbar-nav .nav-item {
     margin-left: 20px;
 }
+.daftar {
+    color: white;
+    font-weight: bold;
+    margin-left: 20px;
+}
 
 .bg-light { 
     background-color: white !important;
@@ -14,6 +19,7 @@
 
 /* banner */
 .jumbotron {
+    margin-top: -80px;
     height: 307px;
     background-image: url(/img/ClassImg/bannerSumatera.png);
     background-position: center;
@@ -143,4 +149,47 @@
 .btn-main {
     width: 426px;
     height: 84px;
+}
+
+.btn-main:hover {
+    background-color: rgba(255, 185, 0, 1);
+    border: none;
+}
+
+/* footer */
+.footer {
+    margin:0;
+    height: 485px;
+    background-color: #e7404a;
+}
+
+.footer h1 {
+    text-align: center;
+    padding-top: 50px;
+}
+.footer .copyright {
+    text-align: center;
+    font-weight: bold;
+    color: black;
+    font-family: 'Montserrat', sans-serif; 
+    font-family: 20px;
+}
+.fa {
+    font-size: 40px;
+    margin: 0 20px 0 0;
+}
+
+.container-footer {
+    padding-top: 100px;
+}
+.img-footer{
+    width: 300px;
+    height: 100px;
+    margin-top: -20px;
+}
+
+@media (min-width: 992px) {
+    .navbar-light .navbar-nav .nav-link:hover {
+        color: #E7404A;
+    }
 }
