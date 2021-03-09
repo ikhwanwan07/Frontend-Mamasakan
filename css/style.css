@@ -15,7 +15,8 @@
 .bg-light { 
     background-color: white !important;
     box-shadow: 1px 1px 6px rgba(0,0,0,0.1);
-}
+} 
+
 .jumbotron {
     height: 307px;
     background-image: url(/img/landing.jpg);
@@ -145,6 +146,7 @@ width: 260px;
 .testimoni {
     height: 600px;
  background-color: #454649;
+ 
 }
 .footer {
     margin:0;

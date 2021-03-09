@@ -6,6 +6,11 @@
 .navbar-nav .nav-item {
     margin-left: 20px;
 }
+.daftar {
+    color: white;
+    font-weight: bold;
+    margin-left: 20px;
+}
 
 .bg-light { 
     background-color: white !important;
@@ -13,6 +18,7 @@
 }
 
 .jumbotron {
+    margin-top: -80px;
     padding-top: 70px;
     height: 319px;
     background-image: url(/img/ResepImg/bannerResep.png);
@@ -31,6 +37,41 @@
     border-top: 4px solid red;
 }
 
+/* search */
+.search-bar {
+    position: absolute;
+    width: 668px;
+    height: 62px;
+    left: 650px;
+    top: 500px;
+}
+
+.btn-secondary {
+    color: #e7404a;
+    border: solid 1px #e7404a;
+    background-color: rgba(231, 64, 74, 0.07);
+    border-right: none;
+}
+
+.btn-secondary:hover {
+    background-color: #e7404a;
+    border: solid 1px #e7404a;
+}
+
+.input-group input {
+    font-size: 19px;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    border: solid 1px #e7404a;
+    border-left: none;
+    border-radius: 5px;
+    background-color: rgba(231, 64, 74, 0.07);
+}
+.form-control::placeholder {
+    color: #e7404a;
+}
+
+/* konten */
 .container {
     margin-bottom: 100px;
 }
@@ -65,6 +106,45 @@
 
 .content a:hover {
     text-decoration: none;
+}
+
+/* pagination */
+.pagination a {
+  background-color:#e7404a;
+  color: white;
+}
+
+/* footer */
+.footer {
+    margin:0;
+    height: 485px;
+    background-color: #e7404a;
+}
+
+.footer h1 {
+    text-align: center;
+    padding-top: 50px;
+}
+.footer .copyright {
+    text-align: center;
+    font-weight: bold;
+    color: black;
+    font-family: 'Montserrat', sans-serif; 
+    font-family: 20px;
+}
+.sosmed {
+    font-size: 40px;
+    margin: 0 20px 0 0;
+}
+
+.container-footer {
+    padding-top: 100px;
+}
+
+.img-footer{
+    width: 300px;
+    height: 100px;
+    margin-top: -20px;
 }
 
 @media (min-width: 992px) {
