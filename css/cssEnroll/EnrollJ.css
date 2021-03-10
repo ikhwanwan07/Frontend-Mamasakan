@@ -21,7 +21,7 @@
 .jumbotron {
     margin-top: -80px;
     height: 307px;
-    background-image: url(/img/ClassImg/bannerSumatera.png);
+    background-image: url(/img/ClassImg/bannerJawa.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -47,7 +47,7 @@
 }
 
 .jumbotron hr {
-    width: 283px;
+    width: 150px;
     height: 9px;
     margin-top: -6px;
     border-top: 4px solid #e7404a;
