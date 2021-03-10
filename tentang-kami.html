@@ -13,10 +13,13 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" />
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.min.css">
+    <link rel="stylesheet" href="/css/testi.css">
     <link rel="stylesheet" href="/css/style.css">
-    <link rel="stylesheet" href="/css/article.css">
 </head>
 <style>
+    *{
+        font-family: 'Montserrat', sans-serif;  
+    }
     .jumbotron {
     height: 200px;
     background-image: url(/img/landing.jpg);
@@ -25,6 +28,7 @@
     background-size: cover;
     text-align: center;
     position: relative;
+    opacity: 0.7;
 }
 .jumbotron .content{
     font-size: 48px;
@@ -36,16 +40,25 @@
   text-align: left;
   color: white;
   text-align: center;
-    margin-top: -10px;
+margin-top: -10px;
 }
 
 .form-inline .form-control {
     margin: 0 400px 50px 450px;
     width: 500px;
 }
+.about-us {
+    background-color: #FFE296;
+    margin: -32px 0 0 0;
+    height:300px;
+}
+.text-about {
+    padding-top: 50px;
+    font-size: 16px;
+    font-weight: bold;
+}
 
 </style>
-
 <body>
     <!-- navbar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -64,15 +77,15 @@
                         <a class="nav-link active" href="htmlKelas/class.html">Kelas</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="article.html">Artikel</a>
+                        <a class="nav-link active" href="/article.html">Artikel</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="htmlResep/recipe.html">Resep</a>
+                        <a class="nav-link active" href="/receipt.html">Resep</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="login.html">Masuk</a>
+                        <a class="nav-link active" href="./login.html">Masuk</a>
                     </li>
-                    <a href="register.html" class="btn btn-danger btn-md daftar">Daftar Sekarang</a>
+                    <a href="#" class="btn btn-danger btn-md daftar">Daftar Sekarang</a>
             </div>
         </div>
 
@@ -81,78 +94,120 @@
     <!-- landing -->
     <div class="jumbotron">
         <div class="container">
-            <h5 class="content">ARTIKEL</h5>
+            <h5 class="content">Tentang Kami</h5>
             <hr>
         </div>
 
     </div>
     <!-- end landing -->
-    <!-- cari -->
-    <section>
-        <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2 search" type="search" placeholder="Search" aria-label="Search">
-          </form>
-    </section>
- <!-- end cari -->
+    <section class=about-us>
+        <div class="container"> 
+            <p class="text-justify text text-about">
+                Mamasakan adalah platform kursus memasak online dimana kamu bisa belajar memasak kapan saja dari Chef Professional yang sudah berpengalaman lama.
 
- <!-- article -->
-    <div class="container">
-        <div class="row justify-content-center mb-5">
-            <div class="col-lg-4">
-                <img src="img/artikel-1.jpeg" alt="" class="img-rounded" width="250" height="200">
+Mamasakan sebagai platform edukasi masak online dimana siapa saja dapat belajar materi masakan nusantara yang mereka inginkan bukan hanya dari seseorang yang pandai di suatu bidang, tetapi dari para ahli yaitu mentor-mentor terbaik di Indonesia.
+
+Selain memiliki pengetahuan yang luas di bidangnya, para mentor juga memiliki segudang pengalaman yang tentunya menarik untuk dipelajari. Belajar langsung mengenai teknik memasak dari Chef Wiliam Wongso, Chef Vindex Tengker, danChef Renatta Moeloek.
+
+Mamasakan juga menyediakan materi pembelajaran yang lengkap, eksklusif dan berjangka panjang untuk level dasar hingga menengah. Dikemas dalam kualitas high definition video dan gambar yang tajam, Mamasakan siap menjadi sarana pembelajaran bagi siapa saja yang ingin belajar dari mentor terbaik.
+ 
+
+ 
+
+
+
+         </p>
+        </div>
+        </section>
+    <!-- why-->
+    <section class="mentor">
+        <div class="container">
+            <div class="header-mentor">
+                <h1>Kenapa harus belajar <br> memasak disini ?</h1>
+                <hr>
             </div>
-            <div class="col-lg-8">
-                <h4 class="text-article">Article</h4>
-                <a class="title-article" href="detail-article.html">Daftar 10 Negara dengan Masakan 
-                    Terbaik Dunia 2020 Versi TasteAtlas</a>
-                <p class="text-justify">Mamasakan I Jumat, 26 Feb 2021 </p>
+            <div class="content-why">
+            <div class="row justify-content-between">
+                <div class="col-lg-3">
+                    <div class="kotak text-center text-white">
+                        <div class="content-kotak mt-5">
+                        <h5>Akses Selamanya</h5>
+                        <p>untuk kelas yang dipilih</p>
+                    </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="kotak text-center text-white">
+                        <div class="content-kotak mt-5">
+                        <h5>Waktu Fleksibel</h5>
+                        <p>akses kapanpun kamu mau</p>
+                    </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="kotak text-center text-white">
+                        <div class="content-kotak mt-5">
+                        <h5>Kelas dasar dan Menengah</h5>
+                        <p>cocok untuk semua kalangan</p>
+                    </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="kotak text-center text-white">
+                        <div class="content-kotak mt-5">
+                        <h5>Bantuan Chef</h5>
+                        <p>tanya langsung ke chef jika bingung</p>
+                    </div>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="row justify-content-center mb-5">
-            <div class="col-lg-4">
-                <img src="img/artikel-1.jpeg" alt="" class="img-rounded" width="250" height="200">
-            </div>
-            <div class="col-lg-8">
-                <h4 class="text-article">Article</h4>
-                <a class="title-article" href="detail-article.html">Daftar 10 Negara dengan Masakan 
-                    Terbaik Dunia 2020 Versi TasteAtlas</a>
-                <p class="text-justify">Mamasakan I Jumat, 26 Feb 2021 </p>
-            </div>
         </div>
-        <div class="row justify-content-center mb-5">
-            <div class="col-lg-4">
-                <img src="img/artikel-1.jpeg" alt="" class="img-rounded" width="250" height="200">
-            </div>
-            <div class="col-lg-8">
-                <h4 class="text-article">Article</h4>
-                <a class="title-article" href="detail-article.html">Daftar 10 Negara dengan Masakan 
-                    Terbaik Dunia 2020 Versi TasteAtlas</a>
-                <p class="text-justify">Mamasakan I Jumat, 26 Feb 2021 </p>
-            </div>
         </div>
-        
-        <nav class="mt-5 mb-5 pagination">
-            <ul class="pagination">
-              <li class="page-item"><a class="page-link" href="#">Previous</a></li>
-              <li class="page-item"><a class="page-link" href="#">1</a></li>
-              <li class="page-item"><a class="page-link" href="#">2</a></li>
-              <li class="page-item"><a class="page-link" href="#">3</a></li>
-              <li class="page-item"><a class="page-link" href="#">Next</a></li>
-            </ul>
-          </nav>
-    </div>
- <!-- end article -->
-  
-   
-    
-   
+    </section>
+    <!-- end mentor  -->
+    <!-- mentor -->
+    <section class="mentor">
+        <div class="container">
+            <div class="header-mentor">
+                <h1>Belajar Dari Expert </h1>
+                <hr>
+                <p class="text-center mentor-text">Belajar memasak Masakan Nusantara dari Chef Professional <br> 
+                    yang sudah berpengalaman lebih dari 20 tahun
+                    </p>
+            </div>
+            <div class="row py-5">
+                <div class="col-md-4">
+                <img src="img/vindex.png" alt="" class="img-mentor">
+                <div class="text-center py-3 content-text">
+                <h2>Chef Vindex <br> Tengker</h2>
+                <h5>Ahli Masakan Jawa</h5>
+            </div>
+                </div>
+            <div class="col-md-4">
+                    <img src="img/william.png" alt="" class="img-mentor">
+                <div class="text-center py-3 content-text">
+                <h2>Chef Vindex <br> Tengker</h2>
+                <h5>Ahli Masakan Jawa</h5>
+                </div>
+        </div>
+        <div class="col-md-4">
+            <img src="img/vindex.png" alt="" class="img-mentor">
+        <div class="text-center py-3 content-text">
+        <h2>Chef Vindex <br> Tengker</h2>
+        <h5>Ahli Masakan Jawa</h5>
+        </div>
+</div>
+        </div>
+    </section>
+    <!-- end mentor  -->
     <!-- foter -->
     <section class="footer">
         <div class="container container-footer">
-            <div class="row justify-content-center">
+            <div class="row">
                 <div class="col-4">
                     <img src="img/mamasakan logo putih.png" alt="" class="img-footer">
-                    <p class="text-white text-left pt-5">Mamasakan adalah platform kursus memasak
+                    <p class="text-white text-left">Mamasakan adalah platform kursus memasak
                         online dimana kamu bisa belajar memasak kapan saja 
                         dari Chef Professional yang sudah berpengalaman lama </p>
                         <p class="text-white text-left py-5">&copy; PT Mamasakan TIM D BCA X SNRGY 2021</p>
