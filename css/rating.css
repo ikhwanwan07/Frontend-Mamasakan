@@ -1,0 +1,73 @@
+.rating{
+	position: absolute;
+	top:50%;
+	left: 50%;
+	transform: translate(-50%, -50%) rotateY(180deg);
+	display: flex;
+}
+
+.star-rating label{
+    color: #444;
+    padding: 2px;
+    float: right;
+    transition: all 0.2s ease;
+}
+.star-rating input{
+    display: none;
+    color: grey;
+}
+.star-rating input:not(:checked) ~ label:hover,
+.star-rating input:not(:checked) ~ label:hover ~ label {
+    color: #fd4;
+}
+.star-rating input:checked ~label {
+    color: #fd4;
+}
+
+.star-rating input#rate5:checked ~ label{
+    color: #fe7;
+    
+}
+
+.fa {
+    font-size: 25px;
+    margin-left: -10px;
+    
+}
+.rating input{
+	display: none;
+    color: #fffa00;
+}
+.rating label{
+	display: block;
+	cursor: pointer;
+	width: 50px;
+    color: #fffa00;
+	/*background: #ccc;*/
+}
+.rating label:before{
+	content:'\f005';
+	font-family: fontAwesome;
+	position: relative;
+	display: block;
+	font-size: 20px;
+	color: #fffa00;
+}
+.rating label:after{
+	content:'\f005';
+	font-family: fontAwesome;
+	position: absolute;
+	display: block;
+	font-size: 20px;
+	color: #fffa00;
+	top:0;
+	opacity: 0;
+	transition: .5s;
+	text-shadow: 0 2px 5px rgba(0,0,0,.5);
+}
+/* .rating label:hover:after,
+.rating label:hover ~ label:after,
+.rating input:checked ~ label:after
+{
+	opacity: 1;
+} */
